@@ -1,11 +1,11 @@
-package ru.anikin.SpringBoot.controller;
+package ru.spring.SpringBoot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ru.anikin.SpringBoot.model.User;
-import ru.anikin.SpringBoot.service.UserService;
+import ru.spring.SpringBoot.model.User;
+import ru.spring.SpringBoot.service.UserService;
 
 @Controller
 @RequestMapping("/users")

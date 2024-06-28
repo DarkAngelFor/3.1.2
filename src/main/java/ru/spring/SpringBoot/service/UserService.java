@@ -1,12 +1,11 @@
-package ru.anikin.SpringBoot.DAO;
+package ru.spring.SpringBoot.service;
 
 
-
-import ru.anikin.SpringBoot.model.User;
+import ru.spring.SpringBoot.model.User;
 
 import java.util.List;
 
-public interface UserDAO {
+public interface UserService {
     List<User> getAllUsers();
 
     void saveUser(User user);
@@ -14,4 +13,5 @@ public interface UserDAO {
     User showUserById(long id);
 
     void deleteUserById(long id);
+
 }

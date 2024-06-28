@@ -1,4 +1,4 @@
-package ru.anikin.SpringBoot;
+package ru.spring.SpringBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

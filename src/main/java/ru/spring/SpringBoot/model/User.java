@@ -1,4 +1,4 @@
-package ru.anikin.SpringBoot.model;
+package ru.spring.SpringBoot.model;
 
 
 import jakarta.persistence.*;

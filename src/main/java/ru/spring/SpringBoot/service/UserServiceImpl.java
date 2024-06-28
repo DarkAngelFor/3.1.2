@@ -1,10 +1,10 @@
-package ru.anikin.SpringBoot.service;
+package ru.spring.SpringBoot.service;
 
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.anikin.SpringBoot.DAO.UserDAO;
-import ru.anikin.SpringBoot.model.User;
+import ru.spring.SpringBoot.DAO.UserDAO;
+import ru.spring.SpringBoot.model.User;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package ru.anikin.SpringBoot.DAO;
+package ru.spring.SpringBoot.DAO;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
-import ru.anikin.SpringBoot.model.User;
+import ru.spring.SpringBoot.model.User;
 
 import java.util.List;
 
